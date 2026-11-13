@@ -75,7 +75,7 @@ Nagwa Shaghluf and T. Aaron Gulliver
 
 *Physical Communication, Volume 79, 2026.*
 
-[View Paper](https://doi.org/10.1016/j.phycom.2026.103289)
+[View Paper](https://www.sciencedirect.com/science/article/abs/pii/S1874490726002983)
 
 **2. Multi-agent deep reinforcement learning-based resource
 allocation for cognitive D2D communications underlaying
@@ -85,7 +85,7 @@ Nagwa Shaghluf and T. Aaron Gulliver
 
 *Wireless Networks, Volume 32, 2026.*
 
-[View Paper](https://doi.org/10.1007/s11276-026-04176-6)
+[View Paper](https://link.springer.com/article/10.1007/s11276-026-04176-6)
 
 ### 2021
 
@@ -96,7 +96,7 @@ Nagwa Shaghluf and T. Aaron Gulliver
 
 *Wireless Networks, Volume 27, 2021.*
 
-[View Paper](https://doi.org/10.1007/s11276-021-02786-w)
+[View Paper](https://link.springer.com/article/10.1007/s11276-021-02786-w)
 
 ### 2019
 
@@ -107,7 +107,7 @@ Nagwa Shaghluf and T. Aaron Gulliver
 
 *Wireless Networks, Volume 25, 2019.*
 
-[View Paper](https://doi.org/10.1007/s11276-018-1720-5)
+[View Paper](https://link.springer.com/article/10.1007/s11276-018-1720-5)
 
 ---
 
@@ -118,7 +118,7 @@ Cognitive Radio Networks**
 
 University of Victoria, 2026.
 
-[Read Dissertation](https://hdl.handle.net/1828/24053)
+[Read Dissertation](https://dspace.library.uvic.ca/bitstreams/10647047-518a-4b80-bdac-7bdb8ff713ca/download)
 
 ---
 
