@@ -4,8 +4,6 @@ title: Blog
 permalink: /blog/
 ---
 
-# Blog
-
 Research notes, ideas, and reflections on
 artificial intelligence and machine learning.
 
