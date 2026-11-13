@@ -4,8 +4,9 @@ title: Blog
 permalink: /blog/
 ---
 
-Research notes, ideas, and reflections on
-artificial intelligence and machine learning.
+Research notes, technical experiments, and
+reflections on artificial intelligence,
+learning, and scientific discovery.
 
 {% for post in site.posts %}
 
