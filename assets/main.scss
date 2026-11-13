@@ -1,0 +1,76 @@
+---
+---
+
+@import "minima";
+
+/* Clean academic typography */
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 17px;
+  line-height: 1.8;
+  color: #292929;
+  background-color: #ffffff;
+}
+
+/* Comfortable reading width */
+.wrapper {
+  max-width: 760px;
+}
+
+/* Site header */
+.site-header {
+  border-top: none;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.site-title {
+  font-family: -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+  font-weight: 600;
+  font-size: 21px;
+  letter-spacing: -0.5px;
+}
+
+/* Navigation */
+.site-nav {
+  font-family: -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+  font-size: 14px;
+}
+
+/* Article headings */
+h1, h2, h3, h4 {
+  color: #222222;
+  line-height: 1.35;
+}
+
+.post-title {
+  font-size: 36px;
+  letter-spacing: -0.8px;
+}
+
+/* Article dates */
+.post-meta {
+  color: #888888;
+  font-size: 13px;
+}
+
+/* Links */
+a {
+  color: #245b82;
+}
+
+a:hover {
+  color: #123b59;
+}
+
+/* More whitespace */
+.page-content {
+  padding: 45px 0;
+}
+
+/* Subtle footer */
+.site-footer {
+  border-top: 1px solid #eeeeee;
+  color: #777777;
+}
