@@ -5,9 +5,11 @@ title: Home
 
 # Nagwa Shaghluf, PhD
 
-**Researcher | Artificial Intelligence | Reinforcement Learning**
 
-Montreal, Quebec, Canada
+**Researcher · Artificial Intelligence · Reinforcement Learning**
+
+*Montréal, Québec, Canada*
+
 
 ---
 
