@@ -2,7 +2,6 @@
 layout: post
 title: "Why I Started This Blog"
 date: 2026-11-13
-categories: [research, artificial-intelligence]
 ---
 
 Research is not only about finding answers.
