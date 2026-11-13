@@ -1,0 +1,11 @@
+
+title: "Research & Ideas"
+description: "Exploring Artificial Intelligence, Machine Learning, and Research"
+author: "Nagwa Shaghluf"
+
+theme: minima
+
+url: "https://nshaghluf.github.io"
+baseurl: ""
+
+permalink: /blog/:year/:month/:day/:title.html
