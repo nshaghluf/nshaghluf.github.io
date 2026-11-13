@@ -1,7 +1,6 @@
-
-title: "Research & Ideas"
-description: "Exploring Artificial Intelligence, Machine Learning, and Research"
-author: "Nagwa Shaghluf"
+title: "Research Notes"
+description: "Thoughts on AI, learning, and research."
+author: "Nagwa Shghluf"
 
 theme: minima
 
@@ -9,3 +8,11 @@ url: "https://nshaghluf.github.io"
 baseurl: ""
 
 permalink: /blog/:year/:month/:day/:title.html
+
+header_pages:
+  - about.md
+  - research.md
+  - blog.md
+
+show_excerpts: true
+
