@@ -10,9 +10,12 @@ baseurl: ""
 permalink: /blog/:year/:month/:day/:title.html
 
 header_pages:
+  - index.md
   - about.md
   - research.md
+  - publications.md
   - blog.md
+
 
 show_excerpts: true
 
