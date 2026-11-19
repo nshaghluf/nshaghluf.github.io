@@ -3,8 +3,6 @@ layout: default
 title: Home
 permalink: /
 ---
-
-
 <div class="portfolio-hero" style="display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:center;padding:65px 0;">
 
   <div>
