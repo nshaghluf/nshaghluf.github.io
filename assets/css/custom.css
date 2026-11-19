@@ -1,1 +1,79 @@
+/* Return to a spacious, modern portfolio layout */
+
+.wrapper {
+  max-width: 1120px;
+}
+
+/* Homepage hero */
+
+.portfolio-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr);
+  gap: 64px;
+  align-items: center;
+  padding: 90px 0 100px;
+}
+
+.portfolio-hero h1 {
+  font-family: Georgia, serif;
+  font-size: clamp(3rem, 6vw, 5.5rem);
+  line-height: 1.08;
+  letter-spacing: -0.035em;
+  margin-bottom: 24px;
+}
+
+.portfolio-hero h2 {
+  font-family: Georgia, serif;
+  font-size: clamp(1.9rem, 3vw, 3rem);
+  line-height: 1.2;
+  letter-spacing: -0.025em;
+}
+
+.portfolio-hero p {
+  line-height: 1.85;
+}
+
+.portfolio-hero a {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.portfolio-hero a:hover {
+  box-shadow: 0 7px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* Tablets */
+
+@media (max-width: 850px) {
+  .portfolio-hero {
+    grid-template-columns: 1fr;
+    gap: 35px;
+    padding: 55px 0 65px;
+  }
+}
+
+/* Mobile phones */
+
+@media (max-width: 480px) {
+  .wrapper {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .portfolio-hero {
+    gap: 25px;
+    padding: 38px 0 50px;
+  }
+
+  .portfolio-hero h1 {
+    font-size: 3.3rem;
+  }
+
+  .portfolio-hero h2 {
+    font-size: 2rem;
+  }
+
+  .portfolio-hero p {
+    font-size: 1rem;
+  }
+}
 
