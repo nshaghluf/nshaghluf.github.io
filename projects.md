@@ -45,7 +45,7 @@ Data Analysis, Predictive Modeling.
 
 ---
 
-## ReturnEra
+## ReturnERA
 
 **Product Engineering · Full-Stack Development · Cloud**
 
@@ -59,7 +59,7 @@ cloud deployment workflows.
 **Technologies:** Next.js, React, TypeScript,
 PostgreSQL, Prisma, Stripe, AWS Lightsail, Docker.
 
-[Visit ReturnEra](https://returnera.ca)
+[Visit ReturnERA](https://returnera.ca)
 
 ---
 
