@@ -177,3 +177,64 @@ body {
   }
 }
 
+/* Modern portfolio navigation */
+
+.site-header {
+  border-top: none;
+  border-bottom: 1px solid #dfe5dc;
+  min-height: 76px;
+}
+
+.site-header .wrapper {
+  min-height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.site-title,
+.site-title:visited {
+  font-family: Georgia, serif;
+  font-size: 1.35rem;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+}
+
+.site-nav .page-link {
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-left: 12px;
+  transition: color 0.2s ease;
+}
+
+.site-nav .page-link:hover {
+  color: #c45129 !important;
+  text-decoration: none;
+}
+
+/* Preserve Minima mobile navigation */
+
+@media (max-width: 600px) {
+  .site-header .wrapper {
+    display: block;
+    min-height: 76px;
+  }
+
+  .site-nav {
+    top: 18px;
+    right: 18px;
+    z-index: 10;
+  }
+
+  .site-nav .page-link {
+    margin-left: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .site-nav .page-link {
+    transition: none;
+  }
+}
+
