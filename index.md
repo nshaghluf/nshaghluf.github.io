@@ -57,6 +57,57 @@ My research focuses on intelligent decision-making, multi-agent deep reinforceme
 
 </section>
 
+<section id="projects">
+
+  <h2>Selected Projects</h2>
+
+  <p>
+    Exploring intelligent systems through research,
+    experimentation, and practical applications.
+  </p>
+
+  <div class="project-grid">
+
+    <article class="project-card">
+      <span class="project-type">Research</span>
+      <h3>Multi-Agent Reinforcement Learning</h3>
+      <p>
+        Doctoral research on intelligent
+        decision-making, resource allocation,
+        and cooperation in wireless networks.
+      </p>
+    </article>
+
+    <article class="project-card">
+      <span class="project-type">Machine Learning</span>
+      <h3>BIXI Availability Prediction</h3>
+      <p>
+        Forecasting bike and dock availability
+        using historical station data,
+        predictive modeling, and time-series analysis.
+      </p>
+    </article>
+
+    <article class="project-card">
+      <span class="project-type">Software Engineering</span>
+      <h3>ReturnEra</h3>
+      <p>
+        A parcel-return pickup platform
+        combining online booking, backend APIs,
+        database design, cloud infrastructure,
+        and payment integration.
+      </p>
+      <a href="https://returnera.ca"
+         target="_blank"
+         rel="noopener noreferrer">
+        Visit ReturnEra
+      </a>
+    </article>
+
+  </div>
+
+</section>
+
 ---
 
 ## Recent Writing
