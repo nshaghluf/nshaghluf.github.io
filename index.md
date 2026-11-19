@@ -10,7 +10,7 @@ permalink: /
       AI Researcher · Montréal, Canada
     </p>
 
-    <h1 style="font-family:Georgia,serif;font-size:clamp(44px,5vw,76px);line-height:1.05;margin:20px 0;color:#172b25;">
+    <h1 style="color:#172b25;">
       Nagwa<br>
       <span style="color:#c45129;">Shaghluf.</span>
     </h1>
@@ -32,7 +32,7 @@ permalink: /
       MY RESEARCH PHILOSOPHY
     </p>
 
-    <h2 style="font-family:Georgia,serif;font-size:clamp(28px,3vw,43px);line-height:1.15;color:#172b25;">
+    <h2 style="color:#172b25;">
       Research is not limited to a discipline.
       <span style="color:#c45129;">It is a way of thinking.</span>
     </h2>
