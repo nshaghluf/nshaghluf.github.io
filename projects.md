@@ -30,6 +30,11 @@ partial observability, fairness, and system constraints.
 
 ## BIXI Availability Prediction
 
+![BIXI availability prediction concept — current versus future bike and dock availability]({{ '/assets/images/bixi_availability_now_versus_next.png' | relative_url }})
+
+*Concept visualization illustrating how predictive availability could improve BIXI trip planning. The interface shown is a proposed feature, not a deployed application.*
+
+
 **Machine Learning · Time-Series Forecasting · Montréal**
 
 An applied machine learning project addressing the
