@@ -68,21 +68,220 @@ solutions through experimentation and engineering.
 
 ---
 
+
 <a id="madrl-project"></a>
 
-## Multi-Agent Deep Reinforcement Learning for Wireless Networks
+## Multi-Agent Deep Reinforcement Learning for Intelligent Wireless Networks
 
-**Research · Deep RL · Wireless Communications**
+**Multi-Agent Reinforcement Learning · PPO ·
+Decentralized Decision-Making · Wireless Communications**
 
-Doctoral research investigating intelligent decision-making
-and resource allocation in wireless communication networks.
+### Project Overview
 
-Explored multi-agent reinforcement learning, cooperation,
-partial observability, fairness, and system constraints.
+My doctoral research investigated intelligent
+resource allocation in wireless communication
+networks using multi-agent deep reinforcement
+learning (MADRL).
 
-**Technologies:** Python, PyTorch, Ray RLlib, PPO, MATLAB.
+The research focused on cognitive device-to-device
+(D2D) communications operating underlaying cellular
+networks, where multiple communication pairs reuse
+cellular spectrum.
 
-[Explore my research]({{ '/research/' | relative_url }})
+The central challenge is to improve communication
+performance while controlling interference and
+protecting cellular users.
+
+### The Research Problem
+
+Traditional resource allocation methods can become
+computationally expensive or difficult to adapt
+to dynamic wireless conditions.
+
+D2D communication introduces additional challenges:
+
+- Multiple users compete for limited spectrum.
+- D2D transmissions create interference for
+  cellular users and other D2D pairs.
+- Wireless channels and network conditions change
+  dynamically.
+- Agents may have access to limited local information.
+- Decisions must respect communication constraints
+  while improving network performance.
+
+These challenges motivate learning-based
+resource allocation strategies.
+
+### Research Objectives
+
+Develop and evaluate multi-agent reinforcement
+learning methods that enable D2D users to make
+resource allocation decisions under changing
+network conditions.
+
+The research investigated:
+
+1. Decentralized decision-making among D2D agents.
+2. Spectrum reuse and transmit power allocation.
+3. Interference management and cellular QoS protection.
+4. Fairness and efficient resource utilization.
+5. The effect of observation design on policy learning.
+6. NOMA-enabled D2D communication strategies.
+
+### Technical Implementation
+
+#### 1. Multi-Agent Wireless Environment
+
+Developed simulation environments representing
+cellular uplink communications with multiple
+D2D pairs sharing spectrum resources.
+
+Each D2D communication pair acts as an agent
+that makes decisions affecting both its own
+communication performance and network-wide
+interference.
+
+The environment models:
+
+- Cellular users and D2D communication pairs.
+- Wireless channel conditions and path loss.
+- Co-channel interference.
+- Signal-to-interference-plus-noise ratio (SINR).
+- Communication rate and spectral efficiency.
+- Cellular QoS and interference constraints.
+
+#### 2. Multi-Agent Reinforcement Learning
+
+Investigated learning-based resource allocation
+using multi-agent deep reinforcement learning.
+
+The agents learn resource allocation strategies
+through repeated interactions with a simulated
+wireless environment.
+
+Applied Proximal Policy Optimization (PPO)
+to investigate policy learning under
+different multi-agent training architectures.
+
+#### 3. Centralized and Decentralized Learning
+
+Investigated two multi-agent learning approaches:
+
+**Centralized Training with Decentralized Execution
+(CTDE)**
+
+Uses centralized information during training
+to support policy learning while enabling
+agents to execute their decisions using
+locally available information.
+
+**Decentralized Training and Decentralized Execution
+(DTDE)**
+
+Agents learn and execute their policies using
+decentralized information.
+
+The comparison investigates the tradeoffs
+between training information, coordination,
+and decentralized decision-making.
+
+#### 4. Information-Aware Observation Design
+
+Investigated how different levels of network
+information affect multi-agent policy learning.
+
+Considered observation configurations including:
+
+- **Local observations:** Information available
+  to individual D2D agents.
+- **Partial observations:** Local information
+  augmented with selected network indicators.
+- **Full channel information:** More comprehensive
+  channel-state information.
+
+The objective was to assess the relationship
+between information availability, learning
+performance, and practical decentralized
+operation.
+
+#### 5. NOMA-Enabled D2D Communications
+
+Extended the resource allocation investigation
+to non-orthogonal multiple access (NOMA)
+enabled D2D communications.
+
+Studied power allocation and spectrum-sharing
+decisions under constraints associated with:
+
+- Cellular-user communication quality.
+- Interference management.
+- Successive interference cancellation (SIC).
+- Resource utilization and fairness.
+
+### Reinforcement Learning Formulation
+
+**Agents**
+
+Individual D2D communication pairs.
+
+**Observations**
+
+Wireless environment information available
+to each agent, depending on the selected
+observation configuration.
+
+**Actions**
+
+Resource allocation decisions, including
+spectrum selection and transmit power
+allocation as applicable to the network model.
+
+**Reward**
+
+Learning signals reflecting communication
+performance while accounting for QoS,
+interference, and feasibility constraints.
+
+**Objective**
+
+Learn policies that improve network
+performance while respecting wireless
+communication constraints.
+
+### Research Contributions
+
+The doctoral research explored:
+
+- Predictive and cooperative spectrum
+  management in cognitive radio networks.
+- Learning-based resource allocation for
+  cognitive D2D communications.
+- Centralized and decentralized multi-agent
+  learning architectures.
+- Information-aware observation design.
+- NOMA-enabled resource allocation with
+  communication constraints.
+- The role of fairness and interference
+  management in intelligent spectrum sharing.
+
+### Technologies
+
+`Python` · `PyTorch` · `Ray RLlib` · `PPO` ·
+`Multi-Agent Reinforcement Learning` ·
+`Wireless Network Simulation` ·
+`MATLAB` · `Optimization`
+
+### Related Publications
+
+This work contributed to my peer-reviewed
+journal research in intelligent wireless
+communications and multi-agent reinforcement
+learning.
+
+[View Publications]({{ '/publications/' | relative_url }})
+
+[Read My PhD Dissertation](https://hdl.handle.net/1828/24053)
+
 
 ---
 
