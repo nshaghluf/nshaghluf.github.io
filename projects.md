@@ -331,8 +331,8 @@ can serve as baselines.
 **Project Status:** Research and experimental development.
 Comparative performance results will be added
 after training and evaluation.
----
 
+---
 ## ReturnEra — Intelligent Parcel Return Management
 
 ![ReturnEra parcel pickup and delivery illustration]({{ '/assets/returnera-project.png' | relative_url }})
