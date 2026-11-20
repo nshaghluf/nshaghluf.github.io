@@ -36,7 +36,7 @@ permalink: /projects/
 
       <img
         class="project-card-thumb"
-        src="{{ '/assets/bixi-prediction.png' | relative_url }}"
+        src="{{ '/assets/bixi_availability_now_versus_next.png' | relative_url }}"
         alt="BIXI bicycle and dock availability prediction"
         loading="lazy"
       >
@@ -74,7 +74,7 @@ permalink: /projects/
 
       <img
         class="project-card-thumb"
-        src="{{ '/assets/returnera.png' | relative_url }}"
+        src="{{ '/assets/returnera-bird.png' | relative_url }}"
         alt="ReturnEra parcel pickup service"
         loading="lazy"
       >
@@ -551,6 +551,7 @@ information on decision-making to be evaluated.
 <a id="bixi-drl"></a>
 
 ### Project 2 — Prediction-Informed DRL for Bike-Return Station Selection
+![(DRL) cyclist agent that learns to select suitable return stations under dynamically changing dock availability illustration]({{ '/assets/bixi_cyclist.png' | relative_url }})
 
 **Deep Reinforcement Learning · Sequential Decision-Making ·
 Predictive Modeling · Urban Mobility**
@@ -738,7 +739,7 @@ after training and evaluation.
 
 ## ReturnEra — Intelligent Parcel Return Management
 
-![ReturnEra parcel pickup and delivery illustration]({{ '/assets/returnera-project.png' | relative_url }})
+![ReturnEra parcel pickup and delivery illustration]({{ '/assets/returnera-bird.png' | relative_url }})
 
 *ReturnEra — Multiple returns. One pickup. Less hassle.*
 
