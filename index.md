@@ -80,13 +80,31 @@ My research focuses on intelligent decision-making, multi-agent deep reinforceme
 
     <article class="project-card">
       <span class="project-type">Machine Learning</span>
-      <h3>BIXI Availability Prediction</h3>
-      <p>
-        Forecasting bike and dock availability
-        using historical station data,
-        predictive modeling, and time-series analysis.
-      </p>
-    </article>
+      
+<article class="project-card">
+  <span class="project-type">Machine Learning</span>
+
+  <h3>BIXI Availability Prediction</h3>
+
+  <a href="{{ '/projects/' | relative_url }}">
+    <img
+      src="{{ '/assets/images/bixi_availability_now_versus_next.png' | relative_url }}"
+      alt="BIXI availability prediction concept showing current and future bike availability"
+      class="project-image"
+      loading="lazy">
+  </a>
+
+  <p>
+    Forecasting bike and dock availability
+    using historical station data, predictive modeling,
+    and time-series analysis.
+  </p>
+
+  <a href="{{ '/projects/' | relative_url }}">
+    Explore project
+  </a>
+</article>
+
 
     <article class="project-card">
       <span class="project-type">Software Engineering</span>
