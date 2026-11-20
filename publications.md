@@ -19,17 +19,19 @@ The publications below document the development,
 implementation, and experimental evaluation of
 these research contributions.
 
-## Journal Publications
 
-My research includes four first-author,
-peer-reviewed journal publications in wireless
-communications, machine learning, and
-reinforcement learning.
+## Peer-Reviewed Journal Publications
 
-Full publication citations and links will
-be added here.
+My research spans predictive spectrum management,
+cognitive radio networks, and multi-agent deep
+reinforcement learning for intelligent wireless
+resource allocation.
 
-## Publications
+I have authored four first-author, peer-reviewed
+journal publications investigating prediction-based
+spectrum access, energy efficiency, interference
+management, and learning-based decision-making.
+
 
 ### 2026
 
