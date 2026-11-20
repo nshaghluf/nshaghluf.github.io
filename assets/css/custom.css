@@ -602,4 +602,29 @@ html {
   }
 }
 
+/* Research project content styling */
+
+.post-content h2 {
+  scroll-margin-top: 110px;
+}
+
+.post-content h3 {
+  color: #18382d;
+  font-family: Georgia, serif;
+  margin-top: 36px;
+}
+
+.post-content h4 {
+  color: #315545;
+  margin-top: 26px;
+}
+
+.post-content blockquote {
+  background: #edf1e9;
+  border-left: 4px solid #a75c3d;
+  border-radius: 0 10px 10px 0;
+  padding: 18px 24px;
+  color: #315545;
+}
+
 
