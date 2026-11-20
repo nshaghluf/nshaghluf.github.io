@@ -4,6 +4,8 @@ title: Publications
 permalink: /publications/
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+
 <section class="publications-page">
 
   <div class="publications-intro">
