@@ -10,95 +10,39 @@ I am an AI and machine learning researcher with a Ph.D.
 in Electrical and Computer Engineering from the
 University of Victoria, Canada.
 
-My expertise lies in multi-agent reinforcement learning,
+My expertise focuses on multi-agent reinforcement learning,
 intelligent decision-making, optimization, and distributed
-autonomous systems.
+autonomous systems. I am particularly interested in
+developing adaptive learning systems that can operate
+under uncertainty and generalize to new environments.
 
-My doctoral research focused on developing learning-based
-resource allocation methods for wireless communication
-networks, particularly in dynamic environments with
-limited information and competing objectives.
+## My Journey
 
-I am interested in applying these foundations beyond
-wireless communications to broader AI challenges,
-including transfer learning, continual learning,
-generalization, and intelligent physical systems.
-
-### My Background
-
-My professional journey combines academic research
+My professional background combines academic research
 with industry engineering experience.
 
-Before pursuing graduate research, I worked at
-Schlumberger (WesternGeco), where I transitioned
-from electrical engineering into geophysics.
+I began my career at Schlumberger (WesternGeco),
+transitioning from electrical engineering into
+geophysics. This experience strengthened my ability
+to learn independently, adapt to unfamiliar technical
+domains, and solve complex engineering problems.
 
-Working in a new technical field strengthened my ability
-to learn independently, understand unfamiliar systems,
-solve complex problems, and collaborate with
-multidisciplinary engineering teams.
+I later pursued graduate research at the University
+of Victoria, investigating learning-based resource
+allocation for wireless networks.
 
-During my doctoral research, I developed and evaluated
-multi-agent learning frameworks, designed simulation
-environments, investigated different training
-architectures, and analyzed agent performance under
-partial observability and communication constraints.
+My doctoral work involved developing multi-agent
+reinforcement learning frameworks, designing simulation
+environments, and evaluating decentralized decision-making
+under partial observability and communication constraints.
 
-### How I Approach Research and Engineering
+These experiences shaped my interest in applying
+intelligent learning and decision-making methods
+across different application domains.
 
-I believe that expertise is not limited to knowing
-a particular tool, algorithm, or application domain.
+## Research Interests
 
-My approach is to:
-
-- Understand the problem and its underlying constraints.
-- Study existing research and established solutions.
-- Reproduce and evaluate relevant methods.
-- Identify limitations and opportunities for improvement.
-- Design, implement, and experimentally validate
-  alternative approaches.
-
-I enjoy working at the intersection of research
-and engineering, where theoretical ideas can be
-translated into practical and testable solutions.
-
-### Education
-
-**Ph.D. in Electrical and Computer Engineering**  
-University of Victoria, Canada · 2026
-
-**M.A.Sc. in Electrical and Computer Engineering**  
-University of Victoria, Canada · 2017
-
-**B.Eng. in Electrical Engineering**  
-University of Tripoli, Libya · 2009
-
-### Research and Technical Expertise
-
-- Multi-Agent Deep Reinforcement Learning
-- Reinforcement Learning and Policy Optimization
-- Distributed and Autonomous Decision-Making
-- Machine Learning and Predictive Modeling
-- Mathematical Modeling and Simulation
-- Constrained Optimization and Resource Allocation
-- Wireless Communications and AI-Enabled Networks
-- Experimental Design and Performance Evaluation
-
-### Selected Achievements
-
-- Four first-author peer-reviewed journal publications.
-- Schlumberger Foundation Faculty for the Future Fellowship.
-- University of Victoria Graduate Fellowship.
-- British Columbia Fellowship.
-- University of Tripoli International Graduate Study Scholarship.
-- Three Outstanding Performance Appraisals at Schlumberger.
-- Ranked first in undergraduate graduating class.
-
-### Research Interests
-
-My research interests focus on intelligent,
-adaptive, and autonomous learning systems,
-particularly:
+My current research interests include:
 
 - Deep and Multi-Agent Reinforcement Learning
 - Learning from Failure and Negative Feedback
@@ -109,8 +53,52 @@ particularly:
 
 [Explore My Research]({{ '/research/' | relative_url }})
 
+## Technical Expertise
 
-### Explore My Work
+- **AI and Reinforcement Learning:** Multi-agent RL,
+  PPO, decentralized learning, and predictive modeling.
+- **Research and Optimization:** Mathematical modeling,
+  simulation, experimental design, and performance evaluation.
+- **Programming and Frameworks:** Python, PyTorch,
+  Ray/RLlib, Gymnasium, and MATLAB.
+- **Wireless Systems:** Cognitive radio, spectrum sharing,
+  D2D communications, NOMA, and resource allocation.
+
+## Education
+
+**Ph.D., Electrical and Computer Engineering**  
+University of Victoria, Canada · 2026
+
+**M.A.Sc., Electrical and Computer Engineering**  
+University of Victoria, Canada · 2017
+
+**B.Eng., Electrical Engineering**  
+University of Tripoli, Libya · 2009
+
+## Selected Achievements
+
+- Four first-author peer-reviewed journal publications.
+- Schlumberger Foundation Faculty for the Future Fellowship.
+- University of Victoria Graduate Fellowship.
+- British Columbia Fellowship.
+- University of Tripoli International Graduate Study Scholarship.
+- Three Outstanding Performance Appraisals at Schlumberger.
+- Ranked first in undergraduate graduating class.
+
+## My Approach to Research and Engineering
+
+I approach unfamiliar problems by studying existing
+methods, understanding their limitations, and developing
+solutions through implementation and experimentation.
+
+I value independent learning, critical thinking,
+reproducible evaluation, and collaboration across
+technical disciplines.
+
+> Research is not limited to a discipline.
+> It is a way of thinking.
+
+## Explore My Work
 
 [Research]({{ '/research/' | relative_url }}) |
 [Publications]({{ '/publications/' | relative_url }}) |
