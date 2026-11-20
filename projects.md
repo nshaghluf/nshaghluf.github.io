@@ -68,7 +68,9 @@ solutions through experimentation and engineering.
 
 ---
 
-## Multi-Agent Deep Reinforcement Learning
+<a id="madrl-project"></a>
+
+## Multi-Agent Deep Reinforcement Learning for Wireless Networks
 
 **Research · Deep RL · Wireless Communications**
 
@@ -98,6 +100,9 @@ The work consists of two connected projects:
 2. DRL-Based Bike-Return Station Selection
 
 ---
+
+<a id="bixi-prediction"></a>
+
 
 ### Project 1 — Short-Term Bike and Dock Availability Prediction
 ![BIXI availability prediction concept — current versus future bike and dock availability]({{ '/assets/bixi_availability_now_versus_next.png' | relative_url }})
@@ -205,6 +210,8 @@ mechanism, allowing the effect of predictive
 information on decision-making to be evaluated.
 
 ---
+
+<a id="bixi-drl"></a>
 
 ### Project 2 — Prediction-Informed DRL for Bike-Return Station Selection
 
@@ -389,6 +396,9 @@ Comparative performance results will be added
 after training and evaluation.
 
 ---
+
+<a id="returnera-project"></a>
+
 ## ReturnEra — Intelligent Parcel Return Management
 
 ![ReturnEra parcel pickup and delivery illustration]({{ '/assets/returnera-project.png' | relative_url }})
