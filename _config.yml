@@ -14,9 +14,10 @@ header_pages:
   - index.md
   - about.md
   - research.md
-  - publications.md
   - projects.md
-  - blog.md
+  - publications.md
+
+  
 
 
 
