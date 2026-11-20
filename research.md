@@ -4,94 +4,150 @@ title: Research
 permalink: /research/
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 
-# Research
+<section class="research-page">
 
-My research focuses on intelligent decision-making
-in complex, dynamic, and partially observable environments.
+  <!-- Introduction -->
 
-I am particularly interested in how autonomous agents
-learn to make effective decisions, cooperate with other
-agents, adapt to uncertainty, and generalize beyond
-their training conditions.
+  <div class="research-hero">
+    <p class="research-lead">
+      My research focuses on intelligent learning,
+      adaptation, and decision-making in complex,
+      dynamic, and partially observable environments.
+    </p>
 
-My work combines mathematical modeling,
-reinforcement learning, simulation, and
-experimental evaluation.
+    <p>
+      I am interested in developing autonomous agents
+      that can learn efficiently, transfer knowledge,
+      adapt to unfamiliar conditions, and make
+      reliable decisions.
+    </p>
+  </div>
 
----
+  <!-- Doctoral research -->
 
-## Doctoral Research
+  <div class="research-feature">
 
-### Multi-Agent Deep Reinforcement Learning for Wireless Networks
+    <span class="research-label">
+      Doctoral Research · University of Victoria · 2026
+    </span>
 
-My PhD research investigated intelligent resource
-allocation and decision-making in wireless
-communication networks.Investigated how autonomous agents learn efficient resource allocation strategies in dynamic wireless networks under uncertainty, limited information, and operational constraints.
+    <h2>
+      Multi-Agent Deep Reinforcement Learning
+    </h2>
 
-**Research challenges**
-- Dynamic and uncertain wireless environments
-- Interference management and spectrum sharing
-- Multi-agent cooperation and decentralized decisions
-- Fairness and quality-of-service constraints
-- Partial observability and information availability
+    <p>
+      My doctoral research investigated intelligent
+      spectrum management and resource allocation
+      in wireless networks, focusing on multi-agent
+      learning, decentralized decision-making,
+      and communication constraints.
+    </p>
 
-**Research approaches**
-- Multi-Agent Deep Reinforcement Learning (MADRL)
-- Proximal Policy Optimization (PPO)
-- Centralized Training with Decentralized Execution (CTDE)
-- Decentralized Training and Decentralized Execution (DTDE)
-- Information-aware observation design
+    <div class="research-tags">
+      <span>Multi-Agent RL</span>
+      <span>PPO</span>
+      <span>CTDE / DTDE</span>
+      <span>Partial Observability</span>
+      <span>Wireless Networks</span>
+    </div>
 
-**Research objectives**
+    <div class="research-feature-links">
+      <a href="{{ '/projects/#madrl-project' | relative_url }}">
+        Explore Research →
+      </a>
 
-Develop and evaluate learning-based resource allocation
-strategies that improve network performance while
-respecting communication constraints.
-Investigated the effects of local, partial, and global information availability on learned policies, robustness, coordination, and system performance.
+      <a href="{{ '/publications/' | relative_url }}">
+        Publications →
+      </a>
 
-[Read my PhD dissertation](https://hdl.handle.net/1828/24053)
+      <a href="https://hdl.handle.net/1828/24053"
+         target="_blank" rel="noopener noreferrer">
+        Dissertation →
+      </a>
+    </div>
 
----
+  </div>
 
-## Current Research Interests
+  <!-- Research interests -->
 
-### Learning from Failure
+  <div class="research-section-heading">
+    <h2>Current Research Interests</h2>
+    <p>
+      Exploring how intelligent agents can learn
+      efficiently, adapt to change, and generalize
+      beyond their training environments.
+    </p>
+  </div>
 
-Investigating whether agents can learn more efficiently
-by identifying informative negative feedback rather than
-relying equally on all experiences.
+  <div class="research-interest-grid">
 
-### Generalization and Continual Learning
+    <div class="research-interest-card">
+      <span class="research-number">01</span>
+      <h3>Learning from Failure</h3>
+      <p>
+        Investigating how negative feedback and
+        informative failure experiences can improve
+        policy learning, sample efficiency, and
+        decision-making.
+      </p>
+    </div>
 
-Exploring how reinforcement learning agents can retain
-useful knowledge, adapt to changing environments,
-and avoid unnecessary relearning.
+    <div class="research-interest-card">
+      <span class="research-number">02</span>
+      <h3>Transfer Learning &amp; Domain Adaptation</h3>
+      <p>
+        Exploring knowledge transfer across tasks
+        and environments, few-shot adaptation,
+        out-of-distribution generalization,
+        and avoiding negative transfer.
+      </p>
+    </div>
 
-### Physical AI and Sim-to-Real
+    <div class="research-interest-card">
+      <span class="research-number">03</span>
+      <h3>Continual Learning &amp; Generalization</h3>
+      <p>
+        Investigating how agents adapt to changing
+        environments while retaining useful knowledge
+        and reducing catastrophic forgetting.
+      </p>
+    </div>
 
-Interested in transferring learned policies from
-simulation to physical systems while addressing
-uncertainty, robustness, and deployment constraints.
+    <div class="research-interest-card">
+      <span class="research-number">04</span>
+      <h3>Physical AI &amp; Sim-to-Real</h3>
+      <p>
+        Exploring reinforcement learning,
+        imitation learning, and robust policy
+        transfer from simulation to physical systems.
+      </p>
+    </div>
 
-### Transfer Learning and Domain Adaptation
+  </div>
 
-Particularly interested in transfer learning for
-reinforcement learning agents, including knowledge reuse,
-few-shot adaptation, out-of-distribution generalization,
-and failure-aware transfer mechanisms.
+  <!-- Research approach -->
 
-My goal is to investigate when prior knowledge improves
-adaptation, when it may cause negative transfer, and how
-agents can selectively reuse useful experience while
-avoiding previously learned failures.
+  <div class="research-approach">
+    <h2>My Research Approach</h2>
 
----
+    <p>
+      I approach research by identifying meaningful
+      problems, studying and reproducing existing
+      methods, investigating their limitations,
+      and developing solutions through systematic
+      experimentation and evaluation.
+    </p>
 
-## Research Philosophy
+    <blockquote>
+      Research is not limited to a discipline.
+      It is a way of thinking.
+    </blockquote>
+  </div>
 
-> Research is not limited to a discipline.
-> It is a way of thinking.
+</section>
+
 
 I believe that research begins with recognizing
 a problem, questioning existing approaches,
