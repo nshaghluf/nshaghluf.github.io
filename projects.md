@@ -332,21 +332,192 @@ can serve as baselines.
 Comparative performance results will be added
 after training and evaluation.
 ---
-## ReturnERA
 
-**Product Engineering · Full-Stack Development · Cloud**
+## ReturnEra — Intelligent Parcel Return Management
 
-A parcel-return pickup service designed to make online
-shopping returns more convenient.
+![ReturnEra parcel pickup and delivery illustration]({{ '/assets/returnera-project.png' | relative_url }})
 
-Developed an online booking platform with backend APIs,
-relational database models, payment integration, and
-cloud deployment workflows.
+*ReturnEra — Multiple returns. One pickup. Less hassle.*
 
-**Technologies:** Next.js, React, TypeScript,
-PostgreSQL, Prisma, Stripe, AWS Lightsail, Docker.
+**Full-Stack Engineering · Cloud Infrastructure ·
+Applied AI · Optimization · Computer Vision**
 
-[Visit ReturnERA](https://returnera.ca)
+### Project Overview
+
+ReturnEra is a technology-driven parcel pickup service
+designed to simplify online shopping returns.
+
+The platform allows customers to schedule doorstep pickups
+for packages being returned through carriers such as
+Canada Post, Purolator, UPS, and FedEx.
+
+The objective is to consolidate multiple returns into
+a single pickup, reduce unnecessary customer trips,
+and improve return-logistics efficiency.
+
+### The Problem
+
+Online shopping has made purchasing products convenient,
+but returning items can still require customers to
+travel to different carrier drop-off locations.
+
+Customers managing multiple returns may need to:
+
+- Visit several carrier locations.
+- Coordinate different return labels or QR codes.
+- Spend time traveling and waiting.
+- Track multiple packages independently.
+
+ReturnEra addresses this problem through a centralized
+booking and pickup-management platform.
+
+### Technical Implementation
+
+#### 1. Full-Stack Web Application
+
+Developed a customer-facing booking platform using:
+
+- **Next.js and React** for the web application.
+- **TypeScript** for application development.
+- **Tailwind CSS** for responsive interface design.
+- **Node.js** for server-side application logic.
+
+Implemented customer booking workflows, package
+information collection, reference-code generation,
+and booking confirmation.
+
+#### 2. Backend and Database Architecture
+
+Designed the backend to support customer information,
+pickup orders, and multiple return packages.
+
+Technical components include:
+
+- PostgreSQL relational database.
+- Prisma ORM and database migrations.
+- REST-style API endpoints for booking operations.
+- Unique reference identifiers for pickup orders.
+- Package-level data management.
+- Booking status tracking.
+
+The database structure supports the relationship
+between customers, pickup orders, and individual
+return packages.
+
+#### 3. Payment Integration
+
+Integrated Stripe Checkout for online payment
+processing.
+
+The implementation includes:
+
+- Checkout session creation.
+- Server-side payment processing workflows.
+- Stripe webhook handling.
+- Payment-status verification.
+- Configuration for test and live environments.
+
+#### 4. Cloud Deployment and DevOps
+
+Worked with AWS Lightsail and Docker for application
+deployment and infrastructure configuration.
+
+The development workflow includes:
+
+- Git-based source control.
+- Environment and configuration management.
+- Database schema migrations.
+- Application debugging and deployment testing.
+- AI-assisted development using coding agents.
+
+### Applied AI and Optimization
+
+The following components are areas of ongoing
+development and planned technical research.
+
+#### 5. Intelligent Driver Assignment
+
+Developing methods to assign pickup requests to
+available drivers based on operational constraints.
+
+Potential decision factors include:
+
+- Driver availability.
+- Driver location.
+- Pickup proximity.
+- Existing assigned pickups.
+- Route efficiency and workload.
+
+The objective is to improve assignment efficiency
+and support scalable pickup operations.
+
+#### 6. Pickup and Drop-Off Route Optimization
+
+Exploring optimization methods for consolidating
+multiple pickup requests and carrier drop-offs
+into efficient routes.
+
+Research considerations include:
+
+- Multiple customer pickup locations.
+- Different carrier destinations.
+- Travel distance and estimated travel time.
+- Pickup scheduling and operational constraints.
+- Reducing unnecessary driving.
+
+The objective is to reduce travel costs, improve
+service efficiency, and support more sustainable
+return logistics.
+
+#### 7. Computer Vision for Package Verification
+
+Exploring computer vision techniques to compare
+package images captured at pickup and drop-off.
+
+The proposed system uses image-based matching to
+help determine whether the package recorded at
+pickup corresponds to the package presented at
+the carrier drop-off location.
+
+Potential techniques include:
+
+- Image feature extraction.
+- Visual similarity measurement.
+- Package identification and matching.
+- Detection of package appearance changes.
+- Image-based evidence for package traceability.
+
+The objective is to improve package tracking,
+support handoff verification, and reduce the
+risk of package mix-ups.
+
+Image matching provides supporting evidence
+but does not independently prove carrier acceptance.
+
+### Engineering and Research Objectives
+
+ReturnEra combines practical software engineering
+with opportunities for applied machine learning.
+
+The project explores how data-driven methods can
+improve logistics decisions while integrating
+those methods into a functioning customer platform.
+
+Future work includes evaluating driver assignment
+strategies, route optimization algorithms, and
+computer vision-based package matching.
+
+### Technologies
+
+`Next.js` · `React` · `TypeScript` · `Node.js` ·
+`Tailwind CSS` · `PostgreSQL` · `Prisma` ·
+`Stripe` · `AWS Lightsail` · `Docker` ·
+`Python` · `Computer Vision` · `Optimization`
+
+### Project Website
+
+[Visit ReturnEra](https://returnera.ca)
+
 
 ---
 
