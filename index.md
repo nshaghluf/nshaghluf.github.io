@@ -49,7 +49,6 @@ permalink: /
 
 <section id="research">
 
-## About My Research
 
 I hold a PhD in Electrical and Computer Engineering from the University of Victoria.
 
