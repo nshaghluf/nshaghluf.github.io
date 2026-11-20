@@ -179,17 +179,3 @@ My research focuses on intelligent decision-making, multi-agent deep reinforceme
 
 ---
 
-## Recent Writing
-
-{% for post in site.posts limit:5 %}
-
-### [{{ post.title }}]({{ post.url | relative_url }})
-
-*{{ post.date | date: "%B %d, %Y" }}*
-
-{{ post.excerpt }}
-
-{% endfor %}
-
-[View all articles]({{ '/blog/' | relative_url }})
-
