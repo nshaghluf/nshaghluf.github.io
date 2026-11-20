@@ -85,6 +85,17 @@ permalink: /publications/
         Wireless Networks, Volume 32, 2026
       </p>
 
+<div class="research-contribution">
+  <h4>Research Contribution</h4>
+  <p>
+    Developed and evaluated multi-agent deep
+    reinforcement learning approaches for resource
+    allocation in D2D communications underlaying
+    cellular networks, addressing interference
+    management and communication constraints.
+  </p>
+</div>
+
       <div class="publication-tags">
         <span>Deep RL</span>
         <span>D2D Communications</span>
@@ -112,6 +123,16 @@ permalink: /publications/
       <p class="publication-journal">
         Wireless Networks, Volume 27, 2021
       </p>
+
+<div class="research-contribution">
+  <h4>Research Contribution</h4>
+  <p>
+    Investigated predictive and cooperative spectrum
+    access strategies in cognitive radio networks,
+    focusing on energy efficiency and effective
+    spectrum utilization.
+  </p>
+</div>
 
       <div class="publication-tags">
         <span>Cognitive Radio</span>
@@ -141,6 +162,16 @@ permalink: /publications/
         Wireless Networks, Volume 25, 2019
       </p>
 
+<div class="research-contribution">
+  <h4>Research Contribution</h4>
+  <p>
+    Studied cooperative spectrum prediction as an
+    approach to improving spectrum access decisions
+    and analyzing spectrum and energy efficiency
+    in cognitive radio networks.
+  </p>
+</div>
+
       <div class="publication-tags">
         <span>Cooperative Prediction</span>
         <span>Cognitive Radio</span>
@@ -155,21 +186,56 @@ permalink: /publications/
 
   </div>
 
-  <section class="dissertation-card">
-    <p class="project-type">Doctoral Dissertation · 2026</p>
 
-    <h2>
-      Adaptive and Efficient Resource Allocation
-      for Cognitive Radio Networks
-    </h2>
+<section class="dissertation-card">
 
-    <p>University of Victoria</p>
+  <p class="project-type">
+    PhD Dissertation · University of Victoria · 2026
+  </p>
 
-    <a href="https://dspace.library.uvic.ca/bitstreams/10647047-518a-4b80-bdac-7bdb8ff713ca/download"
-       target="_blank" rel="noopener noreferrer">
-      Read Dissertation →
-    </a>
-  </section>
+  <h2>Doctoral Research in Intelligent Wireless Networks</h2>
+
+  <p>
+    <strong>Author:</strong> Nagwa Shaghluf
+  </p>
+
+  <div class="research-contribution">
+    <h4>Research Contribution</h4>
+
+    <p>
+      Investigated intelligent spectrum management
+      and resource allocation in cognitive wireless networks,
+      progressing from predictive and cooperative spectrum
+      access to multi-agent deep reinforcement learning.
+    </p>
+
+    <p>
+      The research explored decentralized decision-making,
+      interference management, partial observability,
+      fairness, and learning-based resource allocation,
+      including NOMA-enabled D2D communications.
+    </p>
+  </div>
+
+  <h3>Key Research Areas</h3>
+
+  <div class="publication-tags">
+    <span>Cognitive Radio Networks</span>
+    <span>Spectrum Prediction</span>
+    <span>Multi-Agent Deep RL</span>
+    <span>Resource Allocation</span>
+    <span>NOMA-D2D</span>
+    <span>Partial Observability</span>
+  </div>
+
+  <a href="https://hdl.handle.net/1828/24053"
+     target="_blank"
+     rel="noopener noreferrer">
+    Read Full Dissertation →
+  </a>
+
+</section>
+
 
 </section>
 
