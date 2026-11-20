@@ -4,6 +4,21 @@ title: Publications
 permalink: /publications/
 ---
 
+# Publications
+
+My published research focuses on intelligent
+decision-making, multi-agent deep reinforcement learning,
+predictive modeling, and resource allocation in
+wireless communication networks.
+
+My work investigates how learning-based methods can
+address complex optimization problems under uncertainty,
+interference constraints, and partial observability.
+
+The publications below document the development,
+implementation, and experimental evaluation of
+these research contributions.
+
 ## Journal Publications
 
 My research includes four first-author,
