@@ -78,9 +78,7 @@ My research focuses on intelligent decision-making, multi-agent deep reinforceme
       </p>
     </article>
 
-    <article class="project-card">
-      <span class="project-type">Machine Learning</span>
-      
+    
 <article class="project-card">
   <span class="project-type">Machine Learning</span>
 
@@ -104,6 +102,7 @@ My research focuses on intelligent decision-making, multi-agent deep reinforceme
     Explore project
   </a>
 </article>
+
 
 
     <article class="project-card">
