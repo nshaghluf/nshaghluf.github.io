@@ -62,7 +62,7 @@ permalink: /projects/
 </div>
 
 
-      <h3>BIXI Intelligent Cyclist</h3>
+      <h3>BIXI Intelligent Bike-Return Station Selection</h3>
       <p>
         Prediction-informed sequential
         station-selection decisions.
