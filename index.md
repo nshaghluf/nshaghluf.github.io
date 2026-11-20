@@ -57,76 +57,122 @@ My research focuses on intelligent decision-making, multi-agent deep reinforceme
 
 </section>
 
-<section id="projects">
+
+<section class="homepage-projects">
 
   <h2>Selected Projects</h2>
 
-  <p>
+  <p class="projects-intro">
     Exploring intelligent systems through research,
     experimentation, and practical applications.
   </p>
 
-  <div class="project-grid">
+  <div class="projects-nav-grid">
 
-    <article class="project-card">
+    <!-- MADRL -->
+    <a href="{{ '/projects/#madrl-project' | relative_url }}"
+       class="projects-nav-card">
+
       <span class="project-type">Research</span>
-      <h3>Multi-Agent Reinforcement Learning</h3>
+
+      
+
+      <h3>Multi-Agent Deep RL</h3>
+
       <p>
-        Doctoral research on intelligent
-        decision-making, resource allocation,
-        and cooperation in wireless networks.
+        Intelligent wireless resource allocation
+        and decentralized decision-making.
       </p>
-    </article>
 
-    
-<article class="project-card">
-  <span class="project-type">Machine Learning</span>
+      <span class="project-nav-action">
+        Explore Project →
+      </span>
+    </a>
 
-  <h3>BIXI Availability Prediction</h3>
+    <!-- BIXI Prediction -->
+    <a href="{{ '/projects/#bixi-prediction' | relative_url }}"
+       class="projects-nav-card">
 
-  <a href="{{ '/projects/' | relative_url }}">
-    <img
-      src="{{ '/assets/bixi_availability_now_versus_next.png' | relative_url }}"
-      alt="BIXI availability prediction concept showing current and future bike availability"
-      class="project-image"
-      loading="lazy">
-  </a>
+      <span class="project-type">Machine Learning</span>
 
-  <p>
-    Forecasting bike and dock availability
-    using historical station data, predictive modeling,
-    and time-series analysis.
-  </p>
+      <div class="project-image-frame">
+        <img
+          class="project-card-thumb"
+          src="{{ '/assets/bixi_availability_now_versus_next.png' | relative_url }}"
+          alt="BIXI bicycle and dock availability prediction"
+          loading="lazy"
+        >
+      </div>
 
-  <a href="{{ '/projects/' | relative_url }}">
-    Explore project
-  </a>
-</article>
+      <h3>BIXI Availability Prediction</h3>
 
+      <p>
+        Short-term forecasting of bicycle
+        and dock availability.
+      </p>
 
+      <span class="project-nav-action">
+        Explore Project →
+      </span>
+    </a>
 
-    <article class="project-card">
-  <img
-    src="{{ '/assets/returnera-bird.png' | relative_url }}"
-    alt="ReturnEra illustration showing parcel return pickup service"
-    class="project-image"
-  >
+    <!-- BIXI DRL -->
+    <a href="{{ '/projects/#bixi-drl' | relative_url }}"
+       class="projects-nav-card">
 
-  <span class="project-type">Product Engineering</span>
+      <span class="project-type">
+        Deep Reinforcement Learning
+      </span>
 
-  <h3>ReturnEra</h3>
+      <div class="project-image-frame">
+        <img
+          class="project-card-thumb"
+          src="{{ '/assets/bixi-cyclist.png' | relative_url }}"
+          alt="BIXI cyclist DRL station selection"
+          loading="lazy"
+        >
+      </div>
 
-  <p>
-    Developed a parcel-return pickup platform that simplifies
-    returns across multiple carriers through door-to-door pickup,
-    online booking, backend APIs, database design, cloud deployment,
-    and Stripe integration.
-  </p>
+      <h3>BIXI Intelligent Cyclist</h3>
 
-  <a href="https://returnera.ca" target="_blank" rel="noopener noreferrer">
-    Visit ReturnEra →
-  </a>
-</article>
+      <p>
+        Prediction-informed sequential
+        station-selection decisions.
+      </p>
+
+      <span class="project-nav-action">
+        Explore Project →
+      </span>
+    </a>
+
+    <!-- ReturnEra -->
+    <a href="{{ '/projects/#returnera-project' | relative_url }}"
+       class="projects-nav-card">
+
+      <span class="project-type">
+        Software &amp; Applied AI
+      </span>
+
+      <div class="project-image-frame">
+        <img
+          class="project-card-thumb"
+          src="{{ '/assets/returnera-bird.png' | relative_url }}"
+          alt="ReturnEra parcel pickup platform"
+          loading="lazy"
+        >
+      </div>
+
+      <h3>ReturnEra</h3>
+
+      <p>
+        Full-stack parcel return management
+        and intelligent logistics optimization.
+      </p>
+
+      <span class="project-nav-action">
+        Explore Project →
+      </span>
+    </a>
 
   </div>
 
