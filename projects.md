@@ -4,6 +4,62 @@ title: Projects
 permalink: /projects/
 ---
 
+<section class="projects-overview">
+
+  <h1>Research & Technical Projects</h1>
+
+  <p class="projects-intro">
+    My projects combine research, software engineering,
+    and intelligent decision-making to solve problems
+    across different application domains.
+  </p>
+
+  <div class="projects-nav-grid">
+
+    <a href="#madrl-project" class="projects-nav-card">
+      <span class="project-type">Research</span>
+      <h3>Multi-Agent Deep RL</h3>
+      <p>
+        Intelligent wireless resource allocation
+        and decentralized decision-making.
+      </p>
+      <span class="project-nav-action">Explore Project →</span>
+    </a>
+
+    <a href="#bixi-prediction" class="projects-nav-card">
+      <span class="project-type">Machine Learning</span>
+      <h3>BIXI Availability Prediction</h3>
+      <p>
+        Short-term forecasting of bicycle
+        and dock availability.
+      </p>
+      <span class="project-nav-action">Explore Project →</span>
+    </a>
+
+    <a href="#bixi-drl" class="projects-nav-card">
+      <span class="project-type">Deep Reinforcement Learning</span>
+      <h3>BIXI Intelligent Cyclist</h3>
+      <p>
+        Prediction-informed sequential
+        station-selection decisions.
+      </p>
+      <span class="project-nav-action">Explore Project →</span>
+    </a>
+
+    <a href="#returnera-project" class="projects-nav-card">
+      <span class="project-type">Software & Applied AI</span>
+      <h3>ReturnEra</h3>
+      <p>
+        Full-stack parcel return management
+        and intelligent logistics optimization.
+      </p>
+      <span class="project-nav-action">Explore Project →</span>
+    </a>
+
+  </div>
+
+</section>
+
 # Selected Projects
 
 My projects reflect my interest in translating research,
