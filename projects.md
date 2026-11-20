@@ -4,9 +4,9 @@ title: Projects
 permalink: /projects/
 ---
 
-<section class="projects-overview">
+<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 
-  <h1>Research & Technical Projects</h1>
+<section class="projects-overview">
 
   <p class="projects-intro">
     My projects combine research, software engineering,
