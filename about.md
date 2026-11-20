@@ -6,8 +6,6 @@ permalink: /about/
 
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 
-## About Me
-
 I am an AI and machine learning researcher with a Ph.D.
 in Electrical and Computer Engineering from the
 University of Victoria, Canada.
