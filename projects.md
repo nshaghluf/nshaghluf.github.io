@@ -54,12 +54,6 @@ permalink: /projects/
     <a href="#bixi-drl" class="projects-nav-card">
       <span class="project-type">Deep Reinforcement Learning</span>
 
-      <img
-        class="project-card-thumb"
-        src="{{ '/assets/bixi-cyclist.png' | relative_url }}"
-        alt="DRL cyclist selecting an available BIXI station"
-        loading="lazy"
-      >
       <div class="project-image-frame">
   <img
     src="{{ '/assets/bixi-cyclist.png' | relative_url }}"
