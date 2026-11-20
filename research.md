@@ -50,6 +50,8 @@ strategies that improve network performance while
 respecting communication constraints.
 Investigated the effects of local, partial, and global information availability on learned policies, robustness, coordination, and system performance.
 
+[Read my PhD dissertation](https://hdl.handle.net/1828/24053)
+
 ---
 
 ## Current Research Interests
