@@ -475,4 +475,36 @@ body {
   }
 }
 
+/* Detailed ReturnEra project illustration */
+
+.post-content img[alt^="ReturnEra parcel"] {
+  display: block;
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  object-fit: contain;
+  margin: 25px auto;
+  border-radius: 18px;
+  box-shadow: 0 8px 28px rgba(20, 50, 35, 0.10);
+}
+
+/* Project section headings */
+
+.post-content h3 {
+  color: #18382d;
+  font-family: Georgia, serif;
+  margin-top: 35px;
+}
+
+.post-content h4 {
+  color: #315545;
+  margin-top: 25px;
+}
+
+.post-content hr {
+  border: 0;
+  border-top: 1px solid #dfe5dc;
+  margin: 40px 0;
+}
+
 
