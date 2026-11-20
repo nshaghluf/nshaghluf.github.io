@@ -133,7 +133,7 @@ My research focuses on intelligent decision-making, multi-agent deep reinforceme
         >
       </div>
 
-      <h3>BIXI Intelligent Cyclist</h3>
+      <h3>BIXI Intelligent Bike-Return Station Selection</h3>
 
       <p>
         Prediction-informed sequential
@@ -145,7 +145,7 @@ My research focuses on intelligent decision-making, multi-agent deep reinforceme
       </span>
     </a>
 
-    <!-- ReturnEra -->
+    <!-- ReturnERA -->
     <a href="{{ '/projects/#returnera-project' | relative_url }}"
        class="projects-nav-card">
 
@@ -157,12 +157,12 @@ My research focuses on intelligent decision-making, multi-agent deep reinforceme
         <img
           class="project-card-thumb"
           src="{{ '/assets/returnera-bird.png' | relative_url }}"
-          alt="ReturnEra parcel pickup platform"
+          alt="ReturnERA parcel pickup platform"
           loading="lazy"
         >
       </div>
 
-      <h3>ReturnEra</h3>
+      <h3>ReturnERA</h3>
 
       <p>
         Full-stack parcel return management
