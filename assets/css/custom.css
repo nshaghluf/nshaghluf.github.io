@@ -284,3 +284,136 @@ body {
   display: block;
 }
 
+/* Publications page */
+
+.publications-intro {
+  padding: 35px 0 45px;
+  max-width: 850px;
+}
+
+.publications-intro h1 {
+  font-family: Georgia, serif;
+  font-size: clamp(2.4rem, 5vw, 4rem);
+  color: #18382d;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+}
+
+.publications-intro p {
+  color: #58695f;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.publication-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+  margin: 30px 0 55px;
+}
+
+.publication-card,
+.dissertation-card {
+  background: #ffffff;
+  border: 1px solid #e2e7df;
+  border-radius: 18px;
+  padding: 30px;
+}
+
+.publication-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  transition: box-shadow 0.2s ease;
+}
+
+.publication-card:hover {
+  box-shadow: 0 12px 30px rgba(20, 50, 35, 0.09);
+}
+
+.publication-year {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #a75c3d;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.publication-card h3 {
+  font-family: Georgia, serif;
+  color: #18382d;
+  font-size: 1.4rem;
+  line-height: 1.35;
+  margin: 17px 0;
+}
+
+.publication-authors {
+  color: #44574c;
+  font-weight: 500;
+}
+
+.publication-journal {
+  color: #65766e;
+  font-style: italic;
+}
+
+.publication-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 12px 0 22px;
+}
+
+.publication-tags span {
+  background: #edf1e9;
+  color: #315545;
+  border-radius: 30px;
+  padding: 5px 11px;
+  font-size: 0.75rem;
+}
+
+.publication-card a,
+.dissertation-card a {
+  color: #a75c3d;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.publication-card a {
+  margin-top: auto;
+}
+
+.publication-card a:hover,
+.dissertation-card a:hover {
+  text-decoration: underline;
+}
+
+.dissertation-card {
+  background: #e9eee7;
+  margin: 40px 0 60px;
+}
+
+.dissertation-card h2 {
+  color: #18382d;
+  font-family: Georgia, serif;
+}
+
+/* Mobile responsiveness */
+
+@media (max-width: 800px) {
+  .publication-list {
+    grid-template-columns: 1fr;
+  }
+
+  .publication-card,
+  .dissertation-card {
+    padding: 22px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .publication-card {
+    transition: none;
+  }
+}
+
