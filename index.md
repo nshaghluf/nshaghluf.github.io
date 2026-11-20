@@ -107,7 +107,7 @@ My research focuses on intelligent decision-making, multi-agent deep reinforceme
 
     <article class="project-card">
   <img
-    src="{{ '/assets/images/returnera-bird.png' | relative_url }}"
+    src="{{ '/assets/returnera-bird.png' | relative_url }}"
     alt="ReturnEra illustration showing parcel return pickup service"
     class="project-image"
   >
