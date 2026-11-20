@@ -43,7 +43,7 @@ difficulty of finding available bicycles and empty
 docks at bike-sharing stations.
 
 The work investigates predicting station availability
-over 15-, 30-, and 45-minute horizons using historical
+over 15, 30, and 45 minute horizons using historical
 trip and station data.
 
 **Technologies:** Python, Pandas, CatBoost,
