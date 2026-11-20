@@ -22,7 +22,7 @@ permalink: /
 
     <p style="margin-top:30px;">
       <a href="#research" style="background:#172b25;color:white;padding:13px 22px;border-radius:25px;text-decoration:none;">
-        Explore Research
+        Explore Research →
       </a>
     </p>
   </div>
