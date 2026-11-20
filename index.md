@@ -106,20 +106,27 @@ My research focuses on intelligent decision-making, multi-agent deep reinforceme
 
 
     <article class="project-card">
-      <span class="project-type">Software Engineering</span>
-      <h3>ReturnEra</h3>
-      <p>
-        A parcel-return pickup platform
-        combining online booking, backend APIs,
-        database design, cloud infrastructure,
-        and payment integration.
-      </p>
-      <a href="https://returnera.ca"
-         target="_blank"
-         rel="noopener noreferrer">
-        Visit ReturnEra
-      </a>
-    </article>
+  <img
+    src="{{ '/assets/images/returnera-bird.png' | relative_url }}"
+    alt="ReturnEra illustration showing parcel return pickup service"
+    class="project-image"
+  >
+
+  <span class="project-type">Product Engineering</span>
+
+  <h3>ReturnEra</h3>
+
+  <p>
+    Developed a parcel-return pickup platform that simplifies
+    returns across multiple carriers through door-to-door pickup,
+    online booking, backend APIs, database design, cloud deployment,
+    and Stripe integration.
+  </p>
+
+  <a href="https://returnera.ca" target="_blank" rel="noopener noreferrer">
+    Visit ReturnEra →
+  </a>
+</article>
 
   </div>
 
