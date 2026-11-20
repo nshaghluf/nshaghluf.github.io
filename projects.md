@@ -34,12 +34,13 @@ permalink: /projects/
     <a href="#bixi-prediction" class="projects-nav-card">
       <span class="project-type">Machine Learning</span>
 
-      <img
-        class="project-card-thumb"
-        src="{{ '/assets/bixi_availability_now_versus_next.png' | relative_url }}"
-        alt="BIXI bicycle and dock availability prediction"
-        loading="lazy"
-      >
+    
+      <div class="project-image-frame">
+  <img
+    src="{{ '/assets/bixi_availability_now_versus_next.png' | relative_url }}"
+    alt="BIXI availability prediction concept"
+    class="project-image">
+</div>
 
       <h3>BIXI Availability Prediction</h3>
       <p>
@@ -59,6 +60,13 @@ permalink: /projects/
         alt="DRL cyclist selecting an available BIXI station"
         loading="lazy"
       >
+      <div class="project-image-frame">
+  <img
+    src="{{ '/assets/bixi-cyclist.png' | relative_url }}"
+    alt="BIXI DRL agent"
+    class="project-image">
+</div>
+
 
       <h3>BIXI Intelligent Cyclist</h3>
       <p>
@@ -72,13 +80,13 @@ permalink: /projects/
     <a href="#returnera-project" class="projects-nav-card">
       <span class="project-type">Software & Applied AI</span>
 
-      <img
-        class="project-card-thumb"
-        src="{{ '/assets/returnera-bird.png' | relative_url }}"
-        alt="ReturnEra parcel pickup service"
-        loading="lazy"
-      >
-
+   
+<div class="project-image-frame">
+  <img
+    src="{{ '/assets/returnera-bird.png' | relative_url }}"
+    alt="ReturnEra parcel return platform illustration"
+    class="project-image">
+</div>
       <h3>ReturnEra</h3>
       <p>
         Full-stack parcel return management
