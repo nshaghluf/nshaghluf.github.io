@@ -791,4 +791,31 @@ html {
   border-radius: 8px;
 }
 
+/* About page readability */
+
+.post-content h2 {
+  color: #18382d;
+  font-family: Georgia, serif;
+  line-height: 1.25;
+}
+
+.post-content h3 {
+  color: #315545;
+  font-family: Georgia, serif;
+  margin-top: 35px;
+}
+
+.post-content p {
+  line-height: 1.8;
+}
+
+.post-content ul {
+  margin-top: 14px;
+  margin-bottom: 25px;
+}
+
+.post-content li {
+  margin-bottom: 8px;
+}
+
 
