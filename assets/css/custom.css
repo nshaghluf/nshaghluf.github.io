@@ -711,4 +711,34 @@ html {
   }
 }
 
+/* Projects page refinements */
+
+.projects-overview {
+  margin-bottom: 55px;
+}
+
+.projects-overview + hr {
+  display: none;
+}
+
+.post-content > h2 {
+  margin-top: 65px;
+  padding-top: 20px;
+  border-top: 1px solid #dfe5dc;
+}
+
+.post-content > h2:first-of-type {
+  margin-top: 20px;
+  border-top: none;
+}
+
+.post-content h3 {
+  margin-top: 32px;
+}
+
+.post-content p,
+.post-content li {
+  line-height: 1.8;
+}
+
 
