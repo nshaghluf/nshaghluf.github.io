@@ -263,6 +263,112 @@ The doctoral research explored:
   communication constraints.
 - The role of fairness and interference
   management in intelligent spectrum sharing.
+  
+### Experimental Evaluation and Research Findings
+
+The proposed learning-based resource allocation
+frameworks were evaluated through wireless network
+simulations under dynamic communication conditions.
+
+The evaluation investigated network performance,
+resource allocation efficiency, and the impact of
+information availability on decentralized learning.
+
+#### 1. Spectrum and Energy Efficiency
+
+The predictive cooperative spectrum sensing
+framework combined spectrum prediction with
+cooperative decision-making.
+
+The results demonstrated improvements in spectrum
+utilization while reducing sensing overhead and
+energy consumption.
+
+#### 2. MADRL-Based Resource Allocation
+
+A multi-agent reinforcement learning framework
+was developed for cognitive D2D communications
+underlaying cellular networks.
+
+PPO-based agents learned joint channel-selection
+and transmission-power decisions under dynamic
+wireless channel conditions.
+
+The experimental evaluation investigated:
+
+- System throughput and spectrum utilization.
+- Resource allocation under interference constraints.
+- Learning performance in dynamic environments.
+- Distributed decision-making with imperfect
+  network information.
+
+#### 3. Information-Aware Learning
+
+The NOMA-D2D framework investigated how different
+observation configurations affect decentralized
+multi-agent policy learning.
+
+Three information configurations were considered:
+
+- **Local Observation:** Locally available
+  wireless environment information.
+- **Partial Observation:** Local observations
+  augmented with selected network indicators.
+- **Full Observation:** More comprehensive
+  channel-state information.
+
+The experiments explored the relationship between
+information availability, network performance,
+and decentralized learning requirements.
+
+#### Observation Configuration Comparison
+
+| Configuration | Information Available | Research Purpose |
+|---|---|---|
+| Local | Agent-specific network observations | Minimize information requirements |
+| Partial | Local observations plus selected network indicators | Balance information and performance |
+| Full | More comprehensive channel-state information | Evaluate benefits of additional information |
+
+The comparison investigates whether selected
+network indicators can provide useful information
+for decentralized decision-making without
+requiring complete channel-state information.
+
+
+#### 4. NOMA-Enabled Resource Allocation
+
+The research extended cognitive D2D resource
+allocation to NOMA-enabled communications.
+
+The learning framework investigated joint
+spectrum reuse and power allocation while
+accounting for:
+
+- Cellular quality-of-service requirements.
+- Interference constraints.
+- Successive interference cancellation (SIC).
+- Throughput and fairness objectives.
+
+The simulation results demonstrated improvements
+in network performance and fairness relative
+to the evaluated comparison methods.
+
+#### Key Research Finding
+
+The research demonstrates the potential of
+multi-agent reinforcement learning to address
+complex wireless resource allocation problems
+through adaptive, distributed decision-making.
+
+It also highlights the importance of observation
+design when balancing network information
+requirements against learning performance.
+
+**Research Reference:**
+
+[PhD Dissertation — Adaptive and Efficient Resource
+Allocation for Cognitive Radio Networks](https://hdl.handle.net/1828/24053)
+
 
 ### Technologies
 
