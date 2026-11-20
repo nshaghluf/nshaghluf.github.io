@@ -240,7 +240,7 @@ the estimation of future station conditions.
 <a id="bixi-drl"></a>
 
 ### Project 2 — Prediction-Informed DRL for Bike-Return Station Selection
-![(DRL) cyclist agent that learns to select suitable return stations under dynamically changing dock availability illustration]({{ '/assets/bixi_cyclist.png' | relative_url }})
+![(DRL) cyclist agent that learns to select suitable return stations under dynamically changing dock availability illustration]({{ '/assets/bixi-cyclist.png' | relative_url }})
 
 **Deep Reinforcement Learning · Sequential Decision-Making ·
 Predictive Modeling · Urban Mobility**
@@ -382,8 +382,6 @@ returns through a single booking process.
   and database migrations.
 
 ### Applied AI and Optimization
-
-**Under development:**
 
 - **Driver Assignment:** Intelligent selection of
   drivers based on location, availability, and workload.
