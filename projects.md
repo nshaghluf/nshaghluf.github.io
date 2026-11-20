@@ -16,8 +16,12 @@ permalink: /projects/
 
   <div class="projects-nav-grid">
 
+    <!-- MADRL -->
     <a href="#madrl-project" class="projects-nav-card">
       <span class="project-type">Research</span>
+
+     
+
       <h3>Multi-Agent Deep RL</h3>
       <p>
         Intelligent wireless resource allocation
@@ -26,8 +30,17 @@ permalink: /projects/
       <span class="project-nav-action">Explore Project →</span>
     </a>
 
+    <!-- BIXI Prediction -->
     <a href="#bixi-prediction" class="projects-nav-card">
       <span class="project-type">Machine Learning</span>
+
+      <img
+        class="project-card-thumb"
+        src="{{ '/assets/bixi-prediction.png' | relative_url }}"
+        alt="BIXI bicycle and dock availability prediction"
+        loading="lazy"
+      >
+
       <h3>BIXI Availability Prediction</h3>
       <p>
         Short-term forecasting of bicycle
@@ -36,8 +49,17 @@ permalink: /projects/
       <span class="project-nav-action">Explore Project →</span>
     </a>
 
+    <!-- BIXI DRL -->
     <a href="#bixi-drl" class="projects-nav-card">
       <span class="project-type">Deep Reinforcement Learning</span>
+
+      <img
+        class="project-card-thumb"
+        src="{{ '/assets/bixi-cyclist.png' | relative_url }}"
+        alt="DRL cyclist selecting an available BIXI station"
+        loading="lazy"
+      >
+
       <h3>BIXI Intelligent Cyclist</h3>
       <p>
         Prediction-informed sequential
@@ -46,8 +68,17 @@ permalink: /projects/
       <span class="project-nav-action">Explore Project →</span>
     </a>
 
+    <!-- ReturnEra -->
     <a href="#returnera-project" class="projects-nav-card">
       <span class="project-type">Software & Applied AI</span>
+
+      <img
+        class="project-card-thumb"
+        src="{{ '/assets/returnera.png' | relative_url }}"
+        alt="ReturnEra parcel pickup service"
+        loading="lazy"
+      >
+
       <h3>ReturnEra</h3>
       <p>
         Full-stack parcel return management
@@ -59,6 +90,7 @@ permalink: /projects/
   </div>
 
 </section>
+
 
 # Selected Projects
 
