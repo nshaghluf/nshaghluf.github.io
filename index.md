@@ -86,7 +86,7 @@ My research focuses on intelligent decision-making, multi-agent deep reinforceme
 
   <a href="{{ '/projects/' | relative_url }}">
     <img
-      src="{{ '/assets/images/bixi_availability_now_versus_next.png' | relative_url }}"
+      src="{{ '/assets/bixi_availability_now_versus_next.png' | relative_url }}"
       alt="BIXI availability prediction concept showing current and future bike availability"
       class="project-image"
       loading="lazy">
