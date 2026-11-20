@@ -20,11 +20,14 @@ permalink: /
       Deep Reinforcement Learning · Multi-Agent Systems · Applied AI
     </p>
 
-    <p style="margin-top:30px;">
-      <a href="#research" style="background:#172b25;color:white;padding:13px 22px;border-radius:25px;text-decoration:none;">
-        Explore Research →
-      </a>
-    </p>
+    
+<p style="margin-top:30px;">
+  <a href="{{ '/research/' | relative_url }}"
+     style="background:#172b25;color:white;padding:13px 22px;border-radius:25px;text-decoration:none;">
+    Explore Research →
+  </a>
+</p>
+
   </div>
 
   <div>
