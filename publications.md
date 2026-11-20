@@ -6,6 +6,7 @@ permalink: /publications/
 
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 
+
 <section class="publications-page">
 
   <div class="publications-intro">
@@ -45,6 +46,15 @@ permalink: /publications/
       <p class="publication-journal">
         Physical Communication, Volume 79, 2026
       </p>
+<div class="research-contribution">
+  <h4>Research Contribution</h4>
+  <p>
+    Investigated how different levels of network-state
+    information influence decentralized multi-agent
+    reinforcement learning for resource allocation
+    in cognitive NOMA-D2D networks.
+  </p>
+</div>
 
       <div class="publication-tags">
         <span>Multi-Agent RL</span>
